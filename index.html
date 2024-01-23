@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey Haven Hub</title>
+    <!-- font awesome linl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <!-- Tailwind and Daisy UI Link Added -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
@@ -30,15 +32,58 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              'common-color':"#FF4240",
+              'title-color':"#131318",
+              'text-color':"rgba(19, 19, 24, 0.60)",
             },
           },
         },
       };
     </script>
   </head>
-  <body class="manrope-font">
-    <header></header>
-    <main></main>
+  <body class="manrope-font px-2">
+    <header>
+      <nav class="container mx-auto lg:px-32 my-11">
+        <div class="navbar bg-white">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+               <!-- dropdown menu for mobile -->
+               <a class="text-common-color" href="">Home</a>
+               <a href="">About</a>
+               <a href="">Pages</a>
+               <a href="">Blog</a>
+               <a href="">Contact</a>
+              </ul>
+              <!--  -->
+            </div>
+            <a class="btn btn-ghost text-2xl font-extrabold text-title-color">Hockey<span class="text-common-color">’</span>s</a>
+          </div>
+          <!-- menu -->
+          <div class="navbar-center hidden lg:flex space-x-11 text-text-color ">
+            <a class="text-common-color" href="">Home</a>
+            <a href="">About</a>
+            <a href="">Pages</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+          </div>
+          <!-- button -->
+          <div class="navbar-end space-x-3">
+            <i class="fa-solid fa-magnifying-glass text-text-color"></i>
+            <button class="btn bg-common-color text-white">
+              Get Ticket
+            </button>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+    <main>
+
+    </main>
     <footer></footer>
   </body>
 </html>
