@@ -212,7 +212,7 @@
             
                 <div class="absolute left-4 top-3 lg:left-10 lg:top-24 text-white space-y-2 lg:space-y-4">
                       <h3 class=" text-3xl font-extrabold">Junior Program</h3>
-                    <p class="text-white font-medium opacity-70 lg:pr-[800px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                    <p class="text-white font-medium opacity-70 lg:pr-96">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
                       <button class="btn bg-common-color border-none text-white text-xl font-bold">Register Now!</button>
                     </div>
                     </div>
@@ -426,16 +426,14 @@
   <h2 class="text-title-color font-extrabold text-4xl text-center">Get In Touch</h2>
   <p class="text-text-color font-medium text-center lg:max-w-[607px] mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
 <!-- Get in Touch grid start here-->
-  <div class="grid grid-flow-col lg:grid-cols-2 gap-6">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 py-5 lg:py-20">
     <!-- Get in Touch call massage location card start here-->
-    <div class="border-2 p-12 space-y-6 rounded-xl">
+    <div class="border-2 p-4 lg:p-12 space-y-6 rounded-xl">
       <!-- call -->
       <div class="bg-[#bced6d1a] rounded-2xl p-10 space-y-1" >
         <img class="mb-7" src="./image/call.png" alt="">
         <p class="text-text-color">Phone Number</p>
-        <h6 class="text-title-colo font-black text-xl">(+62) 123-321-543</h6>
-  
-  
+        <h6 class="text-title-colo font-black text-xl">(+62) 123-321-543</h6> 
       </div>
       <!-- massage -->
       <div class="bg-[#fddd5f1a] rounded-2xl p-10 space-y-1" >
@@ -453,32 +451,36 @@
       <!-- Get in Touch call massage location card end here -->
       <!-- form Start Here -->
     <div>
-      <div class="flex justify-between">
-        <div class="space-y-2">
+      <div class="lg:flex lg:justify-between mb-6 gap-6">
+        <div class="space-y-2 lg:flex-1">
           <h6 class="text-tltle-color font-bold text-xl">Your Name</h6>
-          <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
+          <input type="text" placeholder="Enter your full name" class="input input-bordered w-full lg:max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
         </div>
     <!--  -->
-    <div class="space-y-2">
-      <h6 class="text-tltle-color font-bold text-xl">Your Name</h6>
-      <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
+    <div class="space-y-2 lg:flex-1">
+      <h6 class="text-tltle-color font-bold text-xl">Your Email</h6>
+      <input type="text" placeholder="Enter your email" class="input input-bordered w-full lg:max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
     </div>
     <!--  -->
   </div>
-    <div class="flex justify-between">
-    <div class="space-y-2">
-      <h6 class="text-tltle-color font-bold text-xl">Your Name</h6>
-      <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
+    <div class="lg:flex lg:justify-between gap-6">
+    <div class="space-y-2 lg:flex-1">
+      <h6 class="text-tltle-color font-bold text-xl">Subject</h6>
+      <input type="text" placeholder="Enter your subject" class="input input-bordered w-full lg:max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
     </div>
     <!--  -->
-    <div class="space-y-2">
-      <h6 class="text-tltle-color font-bold text-xl">Your Name</h6>
-      <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
+    <div class="space-y-2 lg:flex-1">
+      <h6 class="text-tltle-color font-bold text-xl">Phone Number</h6>
+      <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full lg:max-w-xs border-none bg-[#13131808] p-5 rounded-xl" />
     </div>
       </div>
   <!-- input form end -->
   <!-- text area start -->
-  
+  <div class="mt-6 space-y-2">
+    <h6 class="text-tltle-color font-bold text-xl">massage</h6>
+    <textarea class="textarea textarea-bordered w-full h-[288px] lg:h-[465px]" placeholder="Write your message"></textarea>
+    <button class="btn bg-common-color border-none text-white text-xl font-bold w-full">Send Message</button>
+  </div>
     </div>
   </div>
 
