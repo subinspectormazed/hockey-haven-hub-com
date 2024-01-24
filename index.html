@@ -491,8 +491,8 @@
   <img src="./image/Social.svg" alt="">
 </section>
 </main>
-      <footer class="footer p-10 bg-title-color text-white text-base-content mt-20">
-        <aside>
+      <footer class="footer p-10 lg:p-20 bg-title-color text-white text-base-content mt-20">
+        <aside class="flex flex-col lg:justify-start lg:text-left lg:items-start justify-center items-center text-center mx-auto">
           <h3 class="text-2xl font-extrabold">Get In Touch</h3>
           <p class="font-medium text-sm opacity-60 max-w-[346px]">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
           <div class="flex gap-2">
@@ -505,22 +505,24 @@
           </div>
           
         </aside> 
-        <nav>
-          <header class="footer-title">Company</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Leadership</a>
-          <a class="link link-hover">Careers</a>
-          <a class="link link-hover">News & Article</a>
-          <a class="link link-hover">Legal Notice</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">Support</header> 
-          <a class="link link-hover">Help Center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket Support</a>
-          <a class="link link-hover">Contact Us</a>
-        </nav> 
-        <nav>
+        <div class="grid grid-cols-2 gap-20 lg:gap-x-72 lg:text-left text-center">
+          <nav class="flex flex-col space-y-2">
+            <header class="footer-title">Company</header> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+          </nav> 
+          <nav class="flex flex-col space-y-2">
+            <header class="footer-title">Support</header> 
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+          </nav> 
+        </div>
+        <nav class="flex flex-col lg:text-left lg:justify-start justify-center lg:items-start items-center mx-auto">
           <header class="footer-title">Services</header> 
           <a class="link link-hover">Academy</a>
           <a class="link link-hover">Group Lesson</a>
